@@ -1,6 +1,9 @@
 package git_jenkins.jenkins;
 
 import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 import org.openqa.selenium.WebDriver;
 
 public class open_url {
@@ -10,6 +13,7 @@ public class open_url {
 	       
 
 	        // Create an instance of ChromeDriver (launch the Chrome browser)
+		 WebDriverManager.chromedriver().setup();
 	        WebDriver driver = new ChromeDriver();
 
 	        try {
