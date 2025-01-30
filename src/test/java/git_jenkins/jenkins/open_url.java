@@ -21,7 +21,7 @@ public class open_url {
 	            System.out.println("Page Title: " + pageTitle);
 
 	            // Wait for a few seconds (for demonstration purposes only)
-	            Thread.sleep(3000);
+	            Thread.sleep(7000);
 	        } catch (InterruptedException e) {
 	            e.printStackTrace();
 	        } finally {
