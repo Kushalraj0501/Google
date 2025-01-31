@@ -1,6 +1,7 @@
 package git_jenkins.jenkins;
 
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -8,9 +9,10 @@ import org.openqa.selenium.WebDriver;
 
 public class open_url {
 
-	 public static void main(String[] args) {
+	@Test
+	 public void test1() {
 	        // Set the system property for ChromeDriver (path to chromedriver executable)
-	       
+	       //sd
 
 	        // Create an instance of ChromeDriver (launch the Chrome browser)
 		 WebDriverManager.chromedriver().setup();
